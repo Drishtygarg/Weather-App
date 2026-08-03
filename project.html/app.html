@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindSync Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+    }
+    header {
+      background: #4a6cf7;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    #quote {
+      font-style: italic;
+      color: #555;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MindSync</h1>
+  <p>Smart Mental Health & Habit Automation System</p>
+  <div id="quote">Stay positive, you're doing great!</div>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#features">Features</a>
+  <a href="#tech">Tech Stack</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <div class="card">
+    <h2>About Project</h2>
+    <p>MindSync helps users track mood, build habits, and improve productivity using smart automation and personalized suggestions.</p>
+  </div>
+</section>
+
+<section id="features">
+  <div class="card">
+    <h2>Features</h2>
+    <ul>
+      <li>Mood Tracking with graphs</li>
+      <li>Habit Tracker with streaks</li>
+      <li>Smart reminders</li>
+      <li>Personalized routine generator</li>
+      <li>Motivational quotes system</li>
+    </ul>
+  </div>
+</section>
+
+<section id="tech">
+  <div class="card">
+    <h2>Tech Stack</h2>
+    <p>Frontend: HTML, CSS, JavaScript</p>
+    <p>Backend: Python (Flask)</p>
+    <p>Database: MySQL</p>
+    <p>Additional: Java for scheduling</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="card">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 MindSync Project</p>
+</footer>
+
+<script>
+  const quotes = [
+    "Keep going, you're doing amazing!",
+    "Small steps lead to big changes.",
+    "You are stronger than you think.",
+    "Stay consistent, results will come.",
+    "Believe in yourself!"
+  ];
+
+  setInterval(() => {
+    const random = quotes[Math.floor(Math.random() * quotes.length)];
+    document.getElementById("quote").innerText = random;
+  }, 4000);
+</script>
+
+</body>
+</html>
