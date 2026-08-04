@@ -70,7 +70,8 @@ https://openweathermap.org/api
 
 ## 📷 Screenshots
 
-(Add screenshots here later.)
+<img width="902" height="840" alt="image" src="https://github.com/user-attachments/assets/4bcc1efc-8b60-4f59-b915-5220f3315c1f" />
+
 
 ## 👩‍💻 Author
 
